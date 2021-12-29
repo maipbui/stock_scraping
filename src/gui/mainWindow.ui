@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1401</width>
+    <height>902</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="horizontalFrame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>371</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="aTicNameLineBox">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: black;
+border: 1px solid rgb(166, 169, 169);
+border-radius: 3px;
+color: black;
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDoubleSpinBox" name="aTicValSpinBox">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:black;
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="aTicComboBox">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(166, 169, 169);
+border-radius: 3px;
+color: black;
+</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="aTicButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255)</string>
+       </property>
+       <property name="text">
+        <string>...</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/bell.png</normaloff>icons/bell.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QListWidget" name="aTicListWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>661</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(166, 169, 169);</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="nTicListWidget">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>60</y>
+      <width>711</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(166, 169, 169);</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="newsListWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>661</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(166, 169, 169);</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="nTicNameComboBox">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>15</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid rgb(166, 169, 169);
+border-radius: 3px;
+color: black;
+</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ticPriceLCDNumber">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>12</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: None</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,24 @@
+twitter_api:
+  ACCESS_TOKEN: "your token"
+  ACCESS_TOKEN_SECRET: "your token secret"
+  APIKEY: "your api key"
+  APIKEYSECRET: "your api key secret"
+  BEARER_TOKEN: "your token"
+
+polygon_api:
+  API: "your api key"
+
+email:
+  to_address: "your email"
+  from_address: stocknewstoni@gmail.com
+  from_address_password: "from password"
+
+#tickers you want to find news
+tickers:
+  - AAPL
+  - MSFT
+  - DIS
+
+database:
+  username: "your username"
+  password: "your password"
